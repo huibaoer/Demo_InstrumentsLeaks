@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1331B7CC1E7628DD00C37928 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1331B7CB1E7628DD00C37928 /* main.m */; };
+		1331B7CF1E7628DD00C37928 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1331B7CE1E7628DD00C37928 /* AppDelegate.m */; };
+		1331B7D71E7628DD00C37928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1331B7D61E7628DD00C37928 /* Assets.xcassets */; };
+		1331B7DA1E7628DD00C37928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1331B7D81E7628DD00C37928 /* LaunchScreen.storyboard */; };
+		1331B7E41E7628FD00C37928 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1331B7E21E7628FD00C37928 /* RootViewController.m */; };
+		1331B7E51E7628FD00C37928 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1331B7E31E7628FD00C37928 /* RootViewController.xib */; };
+		1331B7E91E76366200C37928 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1331B7E71E76366200C37928 /* TimerViewController.m */; };
+		1331B7EA1E76366200C37928 /* TimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1331B7E81E76366200C37928 /* TimerViewController.xib */; };
+		1331B7EE1E76367100C37928 /* DelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1331B7EC1E76367100C37928 /* DelegateViewController.m */; };
+		1331B7EF1E76367100C37928 /* DelegateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1331B7ED1E76367100C37928 /* DelegateViewController.xib */; };
+		1331B7F31E76368000C37928 /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1331B7F11E76368000C37928 /* BlockViewController.m */; };
+		1331B7F41E76368000C37928 /* BlockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1331B7F21E76368000C37928 /* BlockViewController.xib */; };
+		1331B7F71E763D5600C37928 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1331B7F61E763D5600C37928 /* CustomView.m */; };
+		1331B7F91E763D7200C37928 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1331B7F81E763D7200C37928 /* CustomView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1331B7C71E7628DD00C37928 /* InstrumentsLeaksDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstrumentsLeaksDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1331B7CB1E7628DD00C37928 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1331B7CD1E7628DD00C37928 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1331B7CE1E7628DD00C37928 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1331B7D61E7628DD00C37928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1331B7D91E7628DD00C37928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1331B7DB1E7628DD00C37928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1331B7E11E7628FD00C37928 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1331B7E21E7628FD00C37928 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1331B7E31E7628FD00C37928 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		1331B7E61E76366200C37928 /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		1331B7E71E76366200C37928 /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
+		1331B7E81E76366200C37928 /* TimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimerViewController.xib; sourceTree = "<group>"; };
+		1331B7EB1E76367100C37928 /* DelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateViewController.h; sourceTree = "<group>"; };
+		1331B7EC1E76367100C37928 /* DelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateViewController.m; sourceTree = "<group>"; };
+		1331B7ED1E76367100C37928 /* DelegateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DelegateViewController.xib; sourceTree = "<group>"; };
+		1331B7F01E76368000C37928 /* BlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
+		1331B7F11E76368000C37928 /* BlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
+		1331B7F21E76368000C37928 /* BlockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlockViewController.xib; sourceTree = "<group>"; };
+		1331B7F51E763D5600C37928 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		1331B7F61E763D5600C37928 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		1331B7F81E763D7200C37928 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1331B7C41E7628DD00C37928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1331B7BE1E7628DD00C37928 = {
+			isa = PBXGroup;
+			children = (
+				1331B7C91E7628DD00C37928 /* InstrumentsLeaksDemo */,
+				1331B7C81E7628DD00C37928 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1331B7C81E7628DD00C37928 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1331B7C71E7628DD00C37928 /* InstrumentsLeaksDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1331B7C91E7628DD00C37928 /* InstrumentsLeaksDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1331B7CD1E7628DD00C37928 /* AppDelegate.h */,
+				1331B7CE1E7628DD00C37928 /* AppDelegate.m */,
+				1331B7E11E7628FD00C37928 /* RootViewController.h */,
+				1331B7E21E7628FD00C37928 /* RootViewController.m */,
+				1331B7E31E7628FD00C37928 /* RootViewController.xib */,
+				1331B7E61E76366200C37928 /* TimerViewController.h */,
+				1331B7E71E76366200C37928 /* TimerViewController.m */,
+				1331B7E81E76366200C37928 /* TimerViewController.xib */,
+				1331B7EB1E76367100C37928 /* DelegateViewController.h */,
+				1331B7EC1E76367100C37928 /* DelegateViewController.m */,
+				1331B7ED1E76367100C37928 /* DelegateViewController.xib */,
+				1331B7F51E763D5600C37928 /* CustomView.h */,
+				1331B7F61E763D5600C37928 /* CustomView.m */,
+				1331B7F81E763D7200C37928 /* CustomView.xib */,
+				1331B7F01E76368000C37928 /* BlockViewController.h */,
+				1331B7F11E76368000C37928 /* BlockViewController.m */,
+				1331B7F21E76368000C37928 /* BlockViewController.xib */,
+				1331B7D61E7628DD00C37928 /* Assets.xcassets */,
+				1331B7D81E7628DD00C37928 /* LaunchScreen.storyboard */,
+				1331B7DB1E7628DD00C37928 /* Info.plist */,
+				1331B7CA1E7628DD00C37928 /* Supporting Files */,
+			);
+			path = InstrumentsLeaksDemo;
+			sourceTree = "<group>";
+		};
+		1331B7CA1E7628DD00C37928 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1331B7CB1E7628DD00C37928 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1331B7C61E7628DD00C37928 /* InstrumentsLeaksDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1331B7DE1E7628DD00C37928 /* Build configuration list for PBXNativeTarget "InstrumentsLeaksDemo" */;
+			buildPhases = (
+				1331B7C31E7628DD00C37928 /* Sources */,
+				1331B7C41E7628DD00C37928 /* Frameworks */,
+				1331B7C51E7628DD00C37928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstrumentsLeaksDemo;
+			productName = InstrumentsLeaksDemo;
+			productReference = 1331B7C71E7628DD00C37928 /* InstrumentsLeaksDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1331B7BF1E7628DD00C37928 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = GrayLeo;
+				TargetAttributes = {
+					1331B7C61E7628DD00C37928 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 259D5P5XNV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1331B7C21E7628DD00C37928 /* Build configuration list for PBXProject "InstrumentsLeaksDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1331B7BE1E7628DD00C37928;
+			productRefGroup = 1331B7C81E7628DD00C37928 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1331B7C61E7628DD00C37928 /* InstrumentsLeaksDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1331B7C51E7628DD00C37928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1331B7EA1E76366200C37928 /* TimerViewController.xib in Resources */,
+				1331B7DA1E7628DD00C37928 /* LaunchScreen.storyboard in Resources */,
+				1331B7F41E76368000C37928 /* BlockViewController.xib in Resources */,
+				1331B7D71E7628DD00C37928 /* Assets.xcassets in Resources */,
+				1331B7E51E7628FD00C37928 /* RootViewController.xib in Resources */,
+				1331B7EF1E76367100C37928 /* DelegateViewController.xib in Resources */,
+				1331B7F91E763D7200C37928 /* CustomView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1331B7C31E7628DD00C37928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1331B7F31E76368000C37928 /* BlockViewController.m in Sources */,
+				1331B7E91E76366200C37928 /* TimerViewController.m in Sources */,
+				1331B7CF1E7628DD00C37928 /* AppDelegate.m in Sources */,
+				1331B7EE1E76367100C37928 /* DelegateViewController.m in Sources */,
+				1331B7F71E763D5600C37928 /* CustomView.m in Sources */,
+				1331B7CC1E7628DD00C37928 /* main.m in Sources */,
+				1331B7E41E7628FD00C37928 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1331B7D81E7628DD00C37928 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1331B7D91E7628DD00C37928 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1331B7DC1E7628DD00C37928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1331B7DD1E7628DD00C37928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1331B7DF1E7628DD00C37928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 259D5P5XNV;
+				INFOPLIST_FILE = InstrumentsLeaksDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GrayLeo.InstrumentsLeaksDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1331B7E01E7628DD00C37928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 259D5P5XNV;
+				INFOPLIST_FILE = InstrumentsLeaksDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GrayLeo.InstrumentsLeaksDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1331B7C21E7628DD00C37928 /* Build configuration list for PBXProject "InstrumentsLeaksDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1331B7DC1E7628DD00C37928 /* Debug */,
+				1331B7DD1E7628DD00C37928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1331B7DE1E7628DD00C37928 /* Build configuration list for PBXNativeTarget "InstrumentsLeaksDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1331B7DF1E7628DD00C37928 /* Debug */,
+				1331B7E01E7628DD00C37928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1331B7BF1E7628DD00C37928 /* Project object */;
+}

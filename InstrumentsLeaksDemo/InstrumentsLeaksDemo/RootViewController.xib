@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RootViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sKg-b5-HJV">
+                    <rect key="frame" x="16" y="272" width="343" height="30"/>
+                    <color key="backgroundColor" red="0.46274509800000002" green="0.80392156859999997" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="timer"/>
+                    <connections>
+                        <action selector="timerAction:" destination="-1" eventType="touchUpInside" id="lIM-Ob-LMv"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oh3-cP-q2O">
+                    <rect key="frame" x="16" y="318" width="343" height="30"/>
+                    <color key="backgroundColor" red="0.46274509800000002" green="0.80392156859999997" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="delegate"/>
+                    <connections>
+                        <action selector="delegateAction:" destination="-1" eventType="touchUpInside" id="epC-Cl-6e4"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I4E-Fj-Wt1">
+                    <rect key="frame" x="16" y="364" width="343" height="30"/>
+                    <color key="backgroundColor" red="0.46274509800000002" green="0.80392156859999997" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="block"/>
+                    <connections>
+                        <action selector="blockAction:" destination="-1" eventType="touchUpInside" id="TL0-FP-eOw"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="oh3-cP-q2O" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="2Ng-qn-VNf"/>
+                <constraint firstAttribute="trailing" secondItem="oh3-cP-q2O" secondAttribute="trailing" constant="16" id="Huv-P4-29h"/>
+                <constraint firstItem="sKg-b5-HJV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="J7J-HU-vr4"/>
+                <constraint firstItem="I4E-Fj-Wt1" firstAttribute="top" secondItem="oh3-cP-q2O" secondAttribute="bottom" constant="16" id="YCo-fe-0CA"/>
+                <constraint firstItem="oh3-cP-q2O" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Z1h-ax-NuL"/>
+                <constraint firstItem="oh3-cP-q2O" firstAttribute="top" secondItem="sKg-b5-HJV" secondAttribute="bottom" constant="16" id="b5k-aJ-set"/>
+                <constraint firstAttribute="trailing" secondItem="I4E-Fj-Wt1" secondAttribute="trailing" constant="16" id="bEv-Lv-TaX"/>
+                <constraint firstItem="oh3-cP-q2O" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="gpy-0f-7Rd"/>
+                <constraint firstItem="I4E-Fj-Wt1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="nXd-GN-IZJ"/>
+                <constraint firstAttribute="trailing" secondItem="sKg-b5-HJV" secondAttribute="trailing" constant="16" id="oRn-yF-Rxg"/>
+            </constraints>
+            <point key="canvasLocation" x="26.5" y="52.5"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>
